@@ -16,7 +16,10 @@
     "gulp": "^3.9.0",
     "gulp-eslint": "^1.1.1",
     "gulp-mocha": "^2.2.0",
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "superagent": "^1.7.2"
   },
   "dependencies": {
     "bcrypt": "^0.8.5",
