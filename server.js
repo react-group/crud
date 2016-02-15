@@ -12,6 +12,8 @@ const internetzRouter = require(__dirname + '/routes/internetz_router');
 const kpiRouter = require(__dirname + '/routes/kittens_per_internetz');
 const authRouter = require(__dirname + '/routes/auth_router');
 
+app.use(express.static(__dirname + '/build/'));
+
 app.use('/api', kittenRouter);
 app.use('/api', internetzRouter);
 app.use('/api', kpiRouter);
