@@ -7,3 +7,9 @@
   Our group agreed that the code we wrote in React seemed to have a closer relationship to the DOM compared to Angular's more obscured relationship.  Fore example, React uses state to handle events.  A change in state will trigger a render or re-render of DOM elements instead of Angular's directives which seem to obscure the DOM.  Also, React utilizes more traditional JavaScript techniques like looping over HTML elements for a repeat effect instead of Angular's ng-repeat directive.
 
   After completing the project and getting more comfortable with React, it is easy to see why this framework is an important addition to our developer tool belts.
+
+Resources:
+
+https://www.codementor.io/reactjs/tutorial/react-vs-angularjs
+
+https://facebook.github.io/react/docs/thinking-in-react.html
