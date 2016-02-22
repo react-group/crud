@@ -28,17 +28,13 @@ export default React.createClass({
   },
 
   handleChange(index, key, newValue) {
-    let newState = {
-      ...this.state,
-      data: [...this.state.data]
-    };
+    let newState = this.state;
     newState.data[index][key] = newValue;
     this.setState(newState);
   },
 
   handleDelete(id) {
     let newState = {
-      ...this.state,
       data: this.state.data.filter((item) => item._id !== id)
     };
     this.setState(newState);
@@ -65,7 +61,6 @@ export default React.createClass({
         let newData = this.state.data;
         newData.push(res.body);
         this.setState({
-          ...this.state,
           data: newData
         });
       });
